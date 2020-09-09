@@ -14,7 +14,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class EventManager implements Listener{
 	
-	public EventManager(MZNPlugin plugin) {
+	public EventManager(DNPlugin plugin) {
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);
 	}
 	
@@ -29,9 +29,9 @@ public class EventManager implements Listener{
 	public void teleport(PlayerTeleportEvent evnt) {
 		Player player = evnt.getPlayer();
 		if(evnt.getCause() != TeleportCause.SPECTATE && evnt.getCause() != TeleportCause.UNKNOWN) {
-			MZNPlugin.backs.put(player.getName(), evnt.getFrom());
+			DNPlugin.backs.put(player.getName(), evnt.getFrom());
 		} else if (evnt.getCause() != TeleportCause.UNKNOWN) {
-			MZNPlugin.backs.remove(player.getName());
+			DNPlugin.backs.remove(player.getName());
 		}
 	}
 	

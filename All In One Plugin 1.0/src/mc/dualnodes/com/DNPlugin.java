@@ -19,7 +19,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 
-public class MZNPlugin extends JavaPlugin {
+public class DNPlugin extends JavaPlugin {
 
 	public static Map<String, String> tpRequests = new HashMap<String, String>();
 	public static Map<String, Location> backs = new HashMap<String, Location>();
