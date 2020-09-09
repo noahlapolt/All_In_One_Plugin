@@ -1,0 +1,53 @@
+name: MZN
+main: me.plugin.Noahl11.MZNPlugin
+version: 1.6.2
+api-version: 1.13
+commands:
+    heal:
+      description: Heals and Feeds.
+      usage: /<command> [targetPlayer]
+    ride:
+      description: Ride someone.
+      usage: /<command> [targetPlayer]
+    fly:
+      description: Allows you to fly.
+      usage: /<command>
+    gmc:
+      description: Sets gamemode to creative.
+      usage: /<command>
+    gms:
+      description: Sets gamemode to survival.
+      usage: /<command>
+    gma:
+      description: Sets gamemode to adventure.
+      usage: /<command>
+    gmsp:
+      description: Sets gamemode to spectator.
+      usage: /<command>
+    fix:
+      description: Fixes item.
+      usage: /<command>
+    nickname:
+      description: Changes name.
+      usage: /<command> [name]
+    back:
+      description: Teleports back to last teleport location.
+      usage: /<command>
+    invsee:
+      description: Lets you see and interact with a player's inventory.
+      usage: /<command> [name]
+    endinvsee:
+      description: Lets you see and interact with a player's end inventory.
+      usage: /<command> [name]
+    home:
+      description: Sends you to your bed.
+      usage: /<command>
+    tpa:
+      description: Requests to teleport to someone.
+      usage: /<command> [name]
+    tpaccept:
+      description: Accepts teleportation request.
+      usage: /<command>
+    tpdeny:
+      description: Denies teleportation request.
+      usage: /<command>
